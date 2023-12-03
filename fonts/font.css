@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "YS Text";
+  src: url(./YSTextRegularRegular.woff2) format("woff2"),
+    url(./YSTextRegularRegular.woff) format("woff"),
+    url(./YSTextRegularRegular.ttf) format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YS Text";
+  src: url(./YSTextMediumRegular.woff2) format("woff2"),
+    url(./YSTextMediumRegular.woff) format("woff"),
+    url(./YSTextMediumRegular.ttf) format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}

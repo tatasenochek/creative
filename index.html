@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Страница о взгляде на креативность." />
+    <meta property="og:title" content="Как креативить" />
+    <meta
+      property="og:description"
+      content="Страница о взгляде на креативность."
+    />
+    <meta property="og:url" content="https://do-your-best.top" />
+    <meta property="og:image" content="./favicon/og.img" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="./favicon/favicon.ico" sizes="any" />
+    <link rel="icon" href="./favicon/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png" />
+    <title>Как креативить</title>
+    <link rel="stylesheet" href="./fonts/font.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container">
+        <div class="menu-wrapper">
+          <a href="#" class="header__logo-link">
+            <img
+              class="header__logo"
+              src="./images/logo.svg"
+              alt="Логотип проекта 'Как креативить'"
+            />
+          </a>
+          <button class="header__button" type="button">Меню</button>
+          <nav class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">О креативности</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Книги</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Заказать книгу</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Фактор креативности</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <section class="about">
+        <h1 class="about__title title">
+          Креативность – это способность придумывать нестандартные идеи,
+          находить новые подходы и решения в определенной сфере деятельности.
+          Развитие креативности особенно важно для разработчиков, потому что
+          работа в этой сфере требует быстрого анализа и решения проблем.
+        </h1>
+      </section>
+      <section class="cards">
+        <h2 class="cards__title title">Книги про креативность</h2>
+        <ul class="card__list">
+          <li class="card__list-item">
+            <article class="card new">
+              <p class="card-subtitle">Роджер фон Оехль и Франсиск Берри</p>
+              <h3 class="card-title">Искусство мыслить креативно</h3>
+              <img
+                class="card-image"
+                src="./images/Depth.svg"
+                alt="Иллюстрация на тему"
+              />
+            </article>
+          </li>
+          <li class="card__list-item">
+            <article class="card choise">
+              <p class="card-subtitle">Джеймс Вебб и Брайан Коллинз</p>
+              <h3 class="card-title">Генерация идей</h3>
+              <img
+                class="card-image"
+                src="./images/Frame.svg"
+                alt="Иллюстрация на тему"
+              />
+            </article>
+          </li>
+          <li class="card__list-item">
+            <article class="card business">
+              <p class="card-subtitle">Майкл Миккофф</p>
+              <h3 class="card-title">Креативный гений</h3>
+              <img
+                class="card-image"
+                src="./images/Subtract.svg"
+                alt="Иллюстрация на тему"
+              />
+            </article>
+          </li>
+          <li class="card__list-item">
+            <article class="card choise">
+              <p class="card-subtitle">Джек Фостер</p>
+              <h3 class="card-title">Как мыслить креативно</h3>
+              <img
+                class="card-image"
+                src="./images/Polygon.svg"
+                alt="Иллюстрация на тему"
+              />
+            </article>
+          </li>
+          <li class="card__list-item">
+            <article class="card business">
+              <p class="card-subtitle">Йозеф Приватера</p>
+              <h3 class="card-title">
+                Управление креативностью. Как быть креативным и привносить новое
+                в бизнес
+              </h3>
+              <img
+                class="card-image"
+                src="./images/Hourglass.svg"
+                alt="Иллюстрация на тему"
+              />
+            </article>
+          </li>
+          <li class="card__list-item">
+            <article class="card new">
+              <p class="card-subtitle">Джеймс Клерик</p>
+              <h3 class="card-title">Где рождаются идеи</h3>
+              <img
+                class="card-image"
+                src="./images/Pillow.svg"
+                alt="Иллюстрация на тему"
+              />
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="order">
+        <div class="container">
+          <h2 class="order__title title">Заказать книгу</h2>
+          <form id="order" name="order" class="order-form" action="">
+            <fieldset class="order-form__input">
+              <legend class="order-form__input-title visually-hidden">
+                Введите ваше имя и номера теефона
+              </legend>
+              <label class="order-form__input-data">
+                <span class="order-form__input-text visually-hidden"
+                  >Введите ваше имя</span
+                >
+                <input
+                  type="text"
+                  placeholder="Как вас зовут?"
+                  name="name"
+                  class="order-form__textfield"
+                />
+              </label>
+              <label>
+                <span class="order-form__input-text visually-hidden"
+                  >Введите почту</span
+                >
+                <input
+                  type="phone"
+                  placeholder="+7 (9"
+                  name="phone"
+                  class="order-form__textfield"
+                />
+              </label>
+            </fieldset>
+            <fieldset class="order-form__checkbox">
+              <legend class="order-form__input-title visually-hidden">
+                Выберите книгу
+              </legend>
+              <label class="order-form__checkbox-label">
+                <input
+                  class="visually-hidden"
+                  type="checkbox"
+                  name="boock"
+                  id="thinking-creative"
+                />
+                <span></span>
+                Искусство мыслить креативно
+              </label>
+              <label class="order-form__checkbox-label">
+                <input
+                  class="visually-hidden"
+                  type="checkbox"
+                  name="boock"
+                  id="generation-ideas"
+                />
+                <span></span>
+                Генерация идей
+              </label>
+              <label class="order-form__checkbox-label">
+                <input
+                  class="visually-hidden"
+                  type="checkbox"
+                  name="boock"
+                  id="creative-genius"
+                />
+                <span></span>
+                Креативный гений
+              </label>
+              <label class="order-form__checkbox-label">
+                <input
+                  class="visually-hidden"
+                  type="checkbox"
+                  name="boock"
+                  id="how-creative"
+                />
+                <span></span>
+                Как мыслить креативно
+              </label>
+              <label class="order-form__checkbox-label">
+                <input
+                  class="visually-hidden"
+                  type="checkbox"
+                  name="boock"
+                  id="creativity-management"
+                />
+                <span></span>
+                Управление креативностью. Как быть креативным и привносить новое
+                в бизнес
+              </label>
+              <label class="order-form__checkbox-label">
+                <input
+                  class="order-form__checkbox-item visually-hidden"
+                  type="checkbox"
+                  name="boock"
+                  id="ideas born"
+                />
+                <span></span>
+                Где рождаются идеи
+              </label>
+            </fieldset>
+            <fieldset class="order-form__radio">
+              <legend class="order-form__input-title">
+                Откуда вы узнали про нас?
+              </legend>
+              <label class="order-form__radio-label">
+                <input class="visually-hidden" type="radio" name="answer" />
+                <span></span>
+                Telegram
+              </label>
+              <label class="order-form__radio-label">
+                <input class="visually-hidden" type="radio" name="answer" />
+                <span></span>
+                Instagram
+              </label>
+              <label class="order-form__radio-label">
+                <input class="visually-hidden" type="radio" name="answer" />
+                <span></span>
+                Vk
+              </label>
+              <label class="order-form__radio-label">
+                <input class="visually-hidden" type="radio" name="answer" />
+                <span></span>
+                Другое
+              </label>
+            </fieldset>
+            <button class="order-form__button" type="submit" form="order">
+              Заказать
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="more">
+        <h2 class="more__title title">
+          Креативность – важнейший фактор в современном мире. Она позволяет
+          выделяться и находить новые пути решения проблем. Развивайте эту
+          способность в себе и станьте ещё успешней!
+        </h2>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="footer__logo-link" href="#">
+        <img
+          class="footer__logo"
+          src="./images/logo.svg"
+          alt="Логотип проекта 'Как креативить'"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
