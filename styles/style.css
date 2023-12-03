@@ -78,6 +78,8 @@
   min-inline-size: 350px;
   border-radius: 20px;
   display: none;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
 }
 
 .header__button:hover + .header__menu-list,
@@ -91,25 +93,16 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
-  padding-block-start: 15px;
-  padding-block-end: 15px;
-  padding-inline-start: 30px;
-}
-
-.header__menu-item:first-child {
-  padding-block-start: 30px;
-}
-
-.header__menu-item:last-child {
-  padding-block-end: 30px;
-}
-
-.header__menu-item:hover {
-  background-color: rgba(172, 186, 204, 0.3);
 }
 
 .header__menu-link {
+  display: block;
+  padding: 15px 30px;
   text-decoration: none;
+}
+
+.header__menu-link:hover {
+  background-color: rgba(172, 186, 204, 0.3);
 }
 
 .about {
