@@ -1,7 +1,12 @@
 .header {
   background-color: black;
-  padding-block-start: 40px;
-  padding-block-end: 40px;
+  padding: 40px 0 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .container {
@@ -11,14 +16,13 @@
 
 .menu-wrapper {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-bottom: 20px;
 }
 
 .header__logo-link {
+  display: block;
   inline-size: 222px;
+  padding-block-end: 20px;
 }
 
 .header__logo {
@@ -70,7 +74,7 @@
 
 .header__menu-list {
   position: absolute;
-  top: 62px;
+  top: 76px;
   z-index: 1;
   right: 0;
   list-style: none;
@@ -82,10 +86,8 @@
   padding-block-end: 15px;
 }
 
-.header__button:hover + .header__menu-list,
-.header__menu-list:hover {
+.menu-wrapper:hover .header__menu-list {
   display: block;
-  visibility: visible;
 }
 
 .header__menu-item {
@@ -123,7 +125,7 @@
   background-repeat: no-repeat;
   background-position: center;
   inset: 0;
-  bottom: 303px;
+  bottom: 315px;
 }
 
 .title {
